@@ -1,0 +1,30 @@
+import java.util.*;
+public class HDU1003 {
+	public static void main(String[] args){
+		Scanner input=new Scanner(System.in);
+		int n=input.nextInt(),count=0;
+		while((n--)!=0){
+			int s=input.nextInt(),m[]=new int[s+1],max=-1000,ans1=0,ans2=0;
+			int a[]=new int[s+1];a[0]=0;
+			for(int i=1;i<=s;i++){
+				int t=input.nextInt();
+				a[i]=a[i-1]+t;
+				if(t>=0){
+					m[i]=1;
+				}
+				else m[i]=0;
+			}
+			for(int i=1;i<s+1;i++){
+				for(int j=1;j<=i;j++){
+					if(m[j]==1){
+					if(a[i]-a[j-1]>max){
+						max=a[i]-a[j-1];ans1=j;ans2=i;
+					}
+					}
+				}
+			}
+			System.out.println("Case: "+ ++count+":\n"+max+" "+ans1+" "+ans2);
+			if(n>0) System.out.println();
+		}
+	}
+}

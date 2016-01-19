@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class HDU1005 {
+	public static void main(String[] args){
+	Scanner input=new Scanner(System.in);
+	while(input.hasNext()){
+		int a=input.nextInt(),b=input.nextInt(),n=input.nextInt();
+		
+		System.out.println();
+	}
+}
+}

@@ -1,0 +1,16 @@
+import java.util.*;
+public class HDU1003 {
+	public static void main(String[] args){
+		Scanner input=new Scanner(System.in);
+		int n=input.nextInt();
+		while((n--)!=0){
+			int s=input.nextInt();
+			int a[]=new int[s],m[]=new int[s];
+			for(int i=0;i<s;i++){
+				a[i]=input.nextInt();
+				if(a[i]>=0) m[i]=1;
+				else m[i]=-1;
+			}
+		}
+	}
+}
