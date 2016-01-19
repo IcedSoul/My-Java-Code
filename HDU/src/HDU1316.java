@@ -1,0 +1,25 @@
+import java.math.*;
+import java.util.Scanner;
+public class HDU1316 {
+	private static Scanner input;
+	public static void main(String[] args){
+	input = new Scanner(System.in);
+	BigInteger a[]=new BigInteger[801];
+	BigInteger s=new BigInteger("1");
+	a[1]=s;a[2]=s.add(s);
+	for(int i=3;i<=800;i++){
+		a[i]=a[i-1].add(a[i-2]);
+	}
+	while(input.hasNext()){
+		int num=0;
+		BigInteger startNum=new BigInteger(input.next());
+		BigInteger endNum=new BigInteger(input.next());
+		if(startNum.toString()=="0"&& endNum.toString()=="0") break;
+		for(int i=1;i<=800;i++){
+			if((a[i].compareTo(startNum)>=0)&&(a[i].compareTo(endNum)<=0))
+				num++;	
+		}
+		System.out.println(num);
+	}
+	}
+}

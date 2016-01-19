@@ -1,15 +1,18 @@
 import java.util.Scanner;
 public class HDU1005 {
-	public static int f(int a,int b,int n){
-		if(n==1||n==2) return 1;
-		else return (a*f(a,b,n-1)+b*f(a,b,n-2))%7;
-	}
 	public static void main(String[] args){
 	Scanner input=new Scanner(System.in);
 	while(input.hasNext()){
 		int a=input.nextInt(),b=input.nextInt(),n=input.nextInt();
 		if(a==0 && b==0 && n==0) break;
-		System.out.println(f(a,b,n));
+		int f[]=new int[100],k=1000;f[0]=1;f[1]=1;f[2]=((a*f[1])%7+(b*f[0])%7)%7;
+		for(int i=3;i<50;i++){
+			f[i]=((a*f[i-1])%7+(b*f[i-2])%7)%7;
+		}
+		if(n%49!=0)
+		System.out.println(f[n%48-1]);
+		else
+		System.out.println(f[47]);
+		}
 	}
-}
 }

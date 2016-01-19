@@ -1,0 +1,17 @@
+import java.math.*;
+import java.util.Scanner;
+public class HDU1047 {
+	public static void main(String[] args){
+	Scanner input=new Scanner(System.in);
+	int n=input.nextInt();
+	while((n--)!=0){
+		BigInteger sum=new BigInteger("0");
+		while(true){
+			BigInteger temp=new BigInteger(input.next());
+			sum=sum.add(temp);
+			if(temp.equals("0")) break;
+		}
+		System.out.println(sum);	
+	}
+	}
+}

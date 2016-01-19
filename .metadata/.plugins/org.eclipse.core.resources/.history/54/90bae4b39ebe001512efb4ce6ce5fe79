@@ -1,0 +1,15 @@
+import java.math.*;
+import java.util.Scanner;
+public class HDU1753 {
+	public static void main(String[] args){
+	Scanner input=new Scanner(System.in);
+	while(input.hasNext()){
+		BigDecimal r=new BigDecimal(input.next());
+		BigDecimal b=new BigDecimal(input.next());
+		BigDecimal ans=new BigDecimal("0.0");
+		ans=r.add(b);
+		System.out.println(ans);
+		
+	}
+	}
+}

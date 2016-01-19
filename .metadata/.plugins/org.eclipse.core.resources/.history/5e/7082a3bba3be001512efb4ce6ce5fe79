@@ -1,0 +1,16 @@
+import java.math.*;
+import java.util.Scanner;
+public class HDU1316 {
+	private static Scanner input;
+	public static void main(String[] args){
+	input = new Scanner(System.in);
+	int n=input.nextInt();
+	BigInteger a[]=new BigInteger[801];
+	BigInteger s=new BigInteger("1");
+	a[1]=s;a[2]=s;
+	for(int i=3;i<=800;i++){
+		a[i]=a[i-1].add(a[i-2]);
+	}
+		System.out.println(a[800].toString().length());
+	}
+}
