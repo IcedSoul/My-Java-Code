@@ -8,7 +8,7 @@ public class SHUOJ1223 {
     			char s=a.charAt(i);
     			if(s>='A'&&s<='Z'){
     				if(s=='Z')
-    					System.out.print(a);
+    					System.out.print("a");
     				else
     					System.out.print((char)((int)s+32+1));
     			}
