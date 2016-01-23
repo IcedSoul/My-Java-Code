@@ -1,0 +1,18 @@
+import java.text.DecimalFormat;
+import java.util.Scanner;
+public class SHUOJ1218 {
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+		DecimalFormat df = new DecimalFormat("0.00");
+		while(input.hasNext()){
+			double a=input.nextDouble(),b=input.nextDouble(),ans=0;
+			for(double i=2.0;i<1000000;i++){
+				double aa=Math.ceil(i*a*0.01),bb=Math.floor(i*b*0.01);
+				System.out.println(aa+" "+bb);
+				if(aa<=bb);
+				     {ans=i;break;}
+			}
+			System.out.println((int)ans);
+		}
+	}
+}

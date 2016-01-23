@@ -1,0 +1,64 @@
+import java.util.*;
+public class SHUOJ1219 {
+    public static boolean IsLeapYear(int a){
+        if(a%4!=0)return false;
+        else{
+            if(a%400==0) return true;
+            else{
+                if(a%100==0) return false;
+                else return true;
+            }
+        }
+    }
+    public static int days(int a){
+    	if(IsLeapYear(a)) return 366;
+    	else return 365;
+    }
+    public static int md(int b,int a){
+        switch(a){
+            case 1: return 31;
+            case 2: 
+            	if(IsLeapYear(b)) 
+            		return 29; 
+            	else 
+            		return 28;
+            case 3: return 31;
+            case 4: return 30;
+            case 5: return 31;
+            case 6: return 30;
+            case 7: return 31;
+            case 8: return 31;
+            case 9: return 30;
+            case 10: return 31;
+            case 11: return 30;
+            case 12: return 31;
+        }
+        return 0;
+    }
+    
+    public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    while(input.hasNext()){
+    int num=10000;
+    int y=input.nextInt(),m=input.nextInt(),d=input.nextInt();
+    int y2,m2,d2;
+    num-=md(y,m)-d;
+    	for(int i=m+1;i<=12;i++){
+    		num-=md(y,i);
+    	}
+    	while(num>days(y+1)){
+    		num-=days(y+1);
+    		y++;
+    	}
+    	int j=0;
+    	while(num>md(y+1,j+1)){
+    		num-=md(y+1,j+1);
+    		j++;
+    	}
+    	y2=y+1;
+    	m2=j+1;
+    	d2=num;
+    	System.out.println(y2+"-"+m2+"-"+d2);
+    }
+    }
+}

@@ -1,0 +1,7 @@
+package imooc.collection;
+
+public class course {
+	public String id;
+	public String name;
+
+}

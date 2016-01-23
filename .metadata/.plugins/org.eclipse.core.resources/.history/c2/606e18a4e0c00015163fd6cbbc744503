@@ -1,0 +1,13 @@
+import java.math.BigInteger;
+import java.util.*;
+public class Catalan {
+public static long catalan(int n){
+	if(n==1) return 1;
+	else return catalan(n-1)*(4*n-2)/(n+1);
+}
+public static void main(String[] args){
+	Scanner input=new Scanner(System.in);
+	int t=input.nextInt();
+	System.out.print(catalan(t));
+}
+}

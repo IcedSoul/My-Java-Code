@@ -1,0 +1,12 @@
+import java.text.DecimalFormat;
+import java.util.Scanner;
+public class SHUOJ1218 {
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+		DecimalFormat df = new DecimalFormat("0.00");
+		while(input.hasNext()){
+			double a=input.nextDouble(),b=input.nextDouble();
+			System.out.println(1/Math.abs(b-a));
+		}
+	}
+}

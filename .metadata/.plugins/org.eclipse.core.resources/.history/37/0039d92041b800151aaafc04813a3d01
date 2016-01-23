@@ -1,0 +1,12 @@
+import java.util.Scanner;
+import java.math.*;
+public class Main {
+	public static long dfs(int i,int n,int a,int b,int c,int d){
+		return dfs();
+	}
+	public static void main(String[] args){
+		Scanner input=new Scanner(System.in);
+		int n=input.nextInt();
+		System.out.print(dfs(1,n,1,0,0,0));
+	}
+}

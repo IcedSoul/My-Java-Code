@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class SHUOJ1220 {
+    public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    	double vul=input.nextDouble(),d=input.nextDouble();
+    	int ans=0,i=1;
+    	while(true){
+    		if((double)(i*(i+1)/2)*d>=vul){
+    			break;
+    		}
+    		i++;
+    	}
+    	System.out.print(i-1+(int)Math.ceil(vul/d));
+    }
+}
