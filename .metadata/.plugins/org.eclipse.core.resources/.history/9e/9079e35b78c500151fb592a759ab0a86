@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class SHUOJ1497 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        while(input.hasNext()){
+            String a=input.nextLine();
+            a=a.toLowerCase();
+            System.out.print(a.length());
+            int s1=0,s2=0,s3=0,s4=0;
+            for(int i=0;i<a.length();i++){
+                if(a.charAt(i)>='a'&& a.charAt(i)<='z')
+                    s1++;
+                else if(a.charAt(i)>='0'&& a.charAt(i)<='9')
+                    s2++;
+                else if(a.charAt(i)== ' ')
+                    s3++;
+                else
+                    s4++;
+            }
+            System.out.println(s1+" "+s2+" "+s3+" "+s4);
+        }
+ 
+    }
+}
