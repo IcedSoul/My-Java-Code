@@ -5,4 +5,4 @@ org.eclipse.debug.ui.errorColor=255,255,255
 org.eclipse.debug.ui.inColor=207,191,173
 org.eclipse.debug.ui.outColor=207,191,173
 org.eclipse.debug.ui.save_dirty_editors_before_launch=always
-preferredTargets=default\:default|
+preferredTargets=default\:default|org.eclipse.cdt.debug.ui.toggleCBreakpointTarget\:org.eclipse.cdt.debug.ui.toggleCBreakpointTarget|

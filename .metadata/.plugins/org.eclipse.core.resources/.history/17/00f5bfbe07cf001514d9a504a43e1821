@@ -1,0 +1,37 @@
+import java.text.DecimalFormat;
+import java.util.*;
+ 
+public class HDU2048 {
+    public static long la(int n){
+        long ans=0;
+        if(n>2)
+            ans=(la(n-1)+la(n-2))*(n-1);
+        else if(n==2)
+            ans=1;
+        else if(n==1)
+            ans=0;
+        return ans;
+         
+    }
+    public static void main(String[] args){
+        Scanner input= new Scanner(System.in);
+        DecimalFormat df=new DecimalFormat("#0.00");
+        double ans[]=new double[45];
+        ans[1]=0;ans[2]=1;
+        double v[]=new double[45];
+        v[2]=2;v[1]=1;
+        for(int i=3;i<=40;i++){
+        	v[i]=v[i-1]*i;
+        	ans[i]=(ans[i-1]+ans[i-2])*(i-1);
+        }
+        int n;
+        while(input.hasNext()){
+            n=input.nextInt();
+            double xx=ans[n]/v[n];
+            System.out.println(ans[n]+" "+v[n]+" "+xx);   
+            System.out.println(df.format((double)((int)(xx*10000+0.5))/100.0)+"%");
+        }
+         
+    }
+ 
+}

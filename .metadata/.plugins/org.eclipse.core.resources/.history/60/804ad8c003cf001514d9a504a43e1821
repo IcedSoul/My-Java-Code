@@ -1,0 +1,25 @@
+import java.util.*;
+ 
+public class HDU2048 {
+    public static long la(int n){
+        long ans=0;
+        if(n>2)
+            ans=(la(n-1)+la(n-2))*(n-1);
+        else if(n==2)
+            ans=1;
+        else if(n==1)
+            ans=0;
+        return ans;
+         
+    }
+    public static void main(String[] args){
+        Scanner input= new Scanner(System.in);
+        int n;
+        while(input.hasNext()){
+            n=input.nextInt();
+            System.out.println(la(n));
+        }
+         
+    }
+ 
+}

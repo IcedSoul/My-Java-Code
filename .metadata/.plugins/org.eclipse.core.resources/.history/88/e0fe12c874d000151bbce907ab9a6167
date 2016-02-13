@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class SHUOJ1084{
+	public static void main(String[] args){
+		Scanner input=new Scanner(System.in);
+		int k=0;
+		while(input.hasNext()){
+			String a=input.nextLine();
+			String c[]=new String[1005];
+			String b=a.replaceAll(" ","");
+			if(k==0){
+				if(b.length()>=2){
+					if(b.charAt(0)=='/' && b.charAt(1)=='*'){
+						for(int i=2;i<b.length();i++){
+							
+						}
+					}
+					else
+						System.out.println(a);
+				}
+				else
+					System.out.println(a);
+			}
+		}
+	}
+}

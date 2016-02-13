@@ -1,0 +1,29 @@
+import java.util.*;
+import java.math.*;
+public class HDU2045 {
+    public static long dfs(int i,int n,long num1,long num2){
+        long ans=0;
+        ans+=num1*3;
+        ans+=num2*2;
+        long temp1=2*num2+num1;
+        long temp2=num1;
+        num1=temp1;
+        num2=temp2;
+        if(i<n)
+            ans=dfs(i+1,n,num1,num2);
+        return ans;
+    }
+    public static void main(String[] args){
+        Scanner input=new Scanner(System.in);
+        while(input.hasNext()){
+            int n=input.nextInt();
+            if(n==1)
+                System.out.println("3");
+            else if(n==2)
+                System.out.println("6");
+            else
+            System.out.println(3*dfs(1,n-2,0,1));
+        }
+             
+    }
+}

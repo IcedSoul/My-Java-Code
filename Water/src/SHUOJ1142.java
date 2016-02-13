@@ -1,0 +1,34 @@
+import java.util.*;  
+import java.math.*;  
+public class SHUOJ1142 {  
+    public static void main(String[] args){  
+        Scanner input=new Scanner(System.in);  
+        BigInteger a=new BigInteger("1");  
+        BigInteger c=new BigInteger("0");  
+        BigInteger ans[][]=new BigInteger[105][105];  
+        for(int i=0;i<=10;i++)  
+            for(int j=0;j<=10;j++){  
+                if(i<j) ans[i][j]=c;  
+                else if(j==0) ans[i][j]=a;  
+                else{  
+                    ans[i][j]=ans[i][j-1].add(ans[i-1][j]);  
+                }  
+            }    
+        	int x=input.nextInt();
+            int m=input.nextInt(),n=input.nextInt();   
+            BigInteger e=new BigInteger("1");  
+            BigInteger f=new BigInteger("0");  
+            for(int i=1;i<=m;i++){  
+                f=f.add(a);  
+                e=e.multiply(f);  
+            }  
+            BigInteger g=new BigInteger("1");  
+            BigInteger h=new BigInteger("0");  
+            for(int i=1;i<=n;i++){  
+                h=h.add(a);  
+                g=g.multiply(h);  
+            }  
+            BigInteger b=ans[m][n].multiply(e).multiply(g);   
+            System.out.println(b);  
+    }  
+}
