@@ -19,7 +19,7 @@
 <entry path="/opt/jdk1.8.0_65/jre/lib/endorsed"/>
 </endorsedDirs>
 </libraryInfo>
-<libraryInfo home="D:\Eclipse\eclipse" version="1.7.0_45">
+<libraryInfo home="D:\Eclipse\eclipse\jre" version="1.7.0_45">
 <bootpath>
 <entry path="D:\Eclipse\eclipse\jre\lib\resources.jar"/>
 <entry path="D:\Eclipse\eclipse\jre\lib\rt.jar"/>
@@ -38,7 +38,7 @@
 <entry path="D:\Eclipse\eclipse\jre\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
-<libraryInfo home="D:\Eclipse\eclipse\jre" version="1.7.0_45">
+<libraryInfo home="D:\Eclipse\eclipse" version="1.7.0_45">
 <bootpath>
 <entry path="D:\Eclipse\eclipse\jre\lib\resources.jar"/>
 <entry path="D:\Eclipse\eclipse\jre\lib\rt.jar"/>
