@@ -4521,3 +4521,897 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-21 20:52:26.005
 !MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+!SESSION 2016-02-25 21:56:50.595 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.253
+!MESSAGE NLS unused message: line_separator_platform_mac_os_9 in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.256
+!MESSAGE NLS unused message: ViewsPreference_currentPresentation in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.257
+!MESSAGE NLS unused message: ViewsPreference_currentPresentationFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.257
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_title in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.257
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_message in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.257
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_yes in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.258
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_no in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.258
+!MESSAGE NLS unused message: ViewsPreference_editors in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.258
+!MESSAGE NLS unused message: ViewsPreference_editors_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.258
+!MESSAGE NLS unused message: ViewsPreference_editors_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.259
+!MESSAGE NLS unused message: ViewsPreference_views in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.259
+!MESSAGE NLS unused message: ViewsPreference_views_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.259
+!MESSAGE NLS unused message: ViewsPreference_views_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.259
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.259
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topRight in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.259
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topLeft in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.259
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_left in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.260
+!MESSAGE NLS unused message: ViewsPreference_traditionalTabs in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.260
+!MESSAGE NLS unused message: ViewsPreference_currentTheme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.260
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.260
+!MESSAGE NLS unused message: ViewsPreference_override in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.260
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.261
+!MESSAGE NLS unused message: ViewsPreference_restartRequestJobName in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:51.262
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2016-02-25 21:56:52.028
+!MESSAGE Unable to load class 'org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon' from bundle '69'
+!STACK 0
+java.lang.ClassNotFoundException: org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon cannot be found by org.eclipse.e4.ui.workbench.addons.swt_1.0.1.v20130823-1518
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:100)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:71)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:276)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:581)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2016-02-25 21:56:52.029
+!MESSAGE Unable to load class 'org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon' from bundle '223'
+!STACK 0
+java.lang.ClassNotFoundException: org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon cannot be found by org.eclipse.ui.ide.application_1.0.400.v20130326-1250
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:100)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:71)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:276)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:581)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:52.358
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:52.689
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:52.689
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:52.689
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:52.689
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:52.689
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:52.689
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 21:56:52.921
+!MESSAGE Unable to find Action Set: org.eclipse.mylyn.doc.actionSet
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 21:56:52.921
+!MESSAGE Unable to find Action Set: org.eclipse.rse.core.search.searchActionSet
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 21:56:52.921
+!MESSAGE Unable to find Action Set: adt.actionSet.wizards
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 21:56:52.921
+!MESSAGE Unable to find Action Set: adt.actionSet.avdManager
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 21:56:52.921
+!MESSAGE Unable to find Action Set: adt.actionSet.lint
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 21:56:52.921
+!MESSAGE Unable to find Action Set: adt.actionSet.refactorings
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:53.159
+!MESSAGE NLS unused message: JavaEditorPreferencePage_highlightMatchingBrackets in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:53.306
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:53.306
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:53.437
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_6 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:53.437
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_7 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:53.437
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_8 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:53.437
+!MESSAGE NLS unused message: LaunchConfigurationType_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:53.437
+!MESSAGE NLS unused message: LaunchConfigurationType_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:53.559
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:53.559
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:53.575
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:53.575
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:53.622
+!MESSAGE NLS unused message: GotoMatchingBracket_error_invalidSelection in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:54.021
+!MESSAGE NLS unused message: StandardVMType_Standard_VM_not_supported_on_MacOS__1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:55.581
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:55.582
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:55.584
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:55.584
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:55.600
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:55.600
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:55.600
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:55.600
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:55.647
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:55.647
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:56.116
+!MESSAGE NLS unused message: QuickAccess_PressKeyToShowInitialMatches in: org.eclipse.ui.internal.quickaccess.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:56.845
+!MESSAGE NLS unused message: TaskJobFactory_Receiving_configuration in: org.eclipse.mylyn.internal.tasks.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:56.961
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Error_updating_repository_configuration in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 21:56:56.961
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Updating_repository_configuration_for_X in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:57.164
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:56:57.164
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-02-25 21:57:05.979
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-02-25 21:57:05.980
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\郭晓峰'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:57:08.453
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:57:08.454
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:57:08.466
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:57:08.467
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:57:23.599
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:57:23.599
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:57:40.432
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:57:40.453
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:57:41.797
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:57:41.798
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:57:42.161
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:57:42.166
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:57:47.763
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:57:47.764
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:57:55.455
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:57:55.455
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:58:34.228
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:58:34.229
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:58:40.396
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:58:40.396
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:58:42.171
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:58:42.171
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:58:42.171
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:58:42.171
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:59:05.297
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:59:05.297
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:59:05.312
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 21:59:05.332
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:00:23.453
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:00:23.453
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:00:36.123
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:00:36.138
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:00:46.276
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:00:46.292
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:00:47.539
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:00:47.539
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:01:03.418
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:01:03.418
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:01:04.629
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:01:04.644
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:01:46.507
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:01:46.508
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:01:47.513
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:01:47.516
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:02:48.857
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:02:48.859
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:02:48.964
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:02:48.965
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:02:52.766
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:02:52.767
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:02:56.823
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:02:56.831
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:05:49.736
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:05:49.739
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:05:51.641
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:05:51.642
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:05:56.834
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 22:05:56.834
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+!SESSION 2016-02-25 23:01:23.358 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.971
+!MESSAGE NLS unused message: line_separator_platform_mac_os_9 in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.974
+!MESSAGE NLS unused message: ViewsPreference_currentPresentation in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.975
+!MESSAGE NLS unused message: ViewsPreference_currentPresentationFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.975
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_title in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.975
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_message in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.975
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_yes in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.976
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_no in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.976
+!MESSAGE NLS unused message: ViewsPreference_editors in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.976
+!MESSAGE NLS unused message: ViewsPreference_editors_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.976
+!MESSAGE NLS unused message: ViewsPreference_editors_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.977
+!MESSAGE NLS unused message: ViewsPreference_views in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.977
+!MESSAGE NLS unused message: ViewsPreference_views_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.977
+!MESSAGE NLS unused message: ViewsPreference_views_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.977
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.977
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topRight in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.978
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topLeft in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.978
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_left in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.978
+!MESSAGE NLS unused message: ViewsPreference_traditionalTabs in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.978
+!MESSAGE NLS unused message: ViewsPreference_currentTheme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.979
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.979
+!MESSAGE NLS unused message: ViewsPreference_override in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.979
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.979
+!MESSAGE NLS unused message: ViewsPreference_restartRequestJobName in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:23.980
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2016-02-25 23:01:24.669
+!MESSAGE Unable to load class 'org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon' from bundle '69'
+!STACK 0
+java.lang.ClassNotFoundException: org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon cannot be found by org.eclipse.e4.ui.workbench.addons.swt_1.0.1.v20130823-1518
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:100)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:71)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:276)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:581)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2016-02-25 23:01:24.670
+!MESSAGE Unable to load class 'org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon' from bundle '223'
+!STACK 0
+java.lang.ClassNotFoundException: org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon cannot be found by org.eclipse.ui.ide.application_1.0.400.v20130326-1250
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:100)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:71)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:276)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:581)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:25.013
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:25.345
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:25.345
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:25.345
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:25.345
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:25.345
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:25.345
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 23:01:25.583
+!MESSAGE Unable to find Action Set: org.eclipse.mylyn.doc.actionSet
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 23:01:25.583
+!MESSAGE Unable to find Action Set: org.eclipse.rse.core.search.searchActionSet
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 23:01:25.583
+!MESSAGE Unable to find Action Set: adt.actionSet.wizards
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 23:01:25.583
+!MESSAGE Unable to find Action Set: adt.actionSet.avdManager
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 23:01:25.583
+!MESSAGE Unable to find Action Set: adt.actionSet.lint
+
+!ENTRY org.eclipse.ui 4 4 2016-02-25 23:01:25.583
+!MESSAGE Unable to find Action Set: adt.actionSet.refactorings
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:25.814
+!MESSAGE NLS unused message: JavaEditorPreferencePage_highlightMatchingBrackets in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:25.973
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:25.973
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:26.100
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_6 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:26.100
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_7 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:26.100
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_8 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:26.100
+!MESSAGE NLS unused message: LaunchConfigurationType_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:26.100
+!MESSAGE NLS unused message: LaunchConfigurationType_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:26.215
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:26.215
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:26.231
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:26.231
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:26.282
+!MESSAGE NLS unused message: GotoMatchingBracket_error_invalidSelection in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:26.485
+!MESSAGE NLS unused message: StandardVMType_Standard_VM_not_supported_on_MacOS__1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:27.083
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:27.083
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:27.086
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:27.086
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:27.102
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:27.102
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:27.102
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:27.102
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:27.117
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:27.117
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:27.264
+!MESSAGE NLS unused message: QuickAccess_PressKeyToShowInitialMatches in: org.eclipse.ui.internal.quickaccess.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:27.402
+!MESSAGE NLS unused message: TaskJobFactory_Receiving_configuration in: org.eclipse.mylyn.internal.tasks.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:27.417
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Error_updating_repository_configuration in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-25 23:01:27.417
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Updating_repository_configuration_for_X in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:27.587
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:27.587
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:29.027
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:29.027
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:29.027
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:29.027
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-02-25 23:01:38.455
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-02-25 23:01:38.455
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\郭晓峰'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:41.213
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:41.229
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:41.260
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:01:41.260
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:02:18.077
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:02:18.077
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:02:21.752
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:02:21.752
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:02:33.607
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:02:33.607
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:02:41.988
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:02:41.991
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:03:03.761
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:03:03.761
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:03:10.346
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:03:10.362
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:03:25.287
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:03:25.287
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:03:26.257
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:03:26.257
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:03:46.580
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:03:46.580
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:03:52.068
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:03:52.070
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:04:04.213
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:04:04.229
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:04:06.222
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:04:06.222
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:04:08.996
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:04:08.997
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:04:11.152
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:04:11.152
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:04:16.531
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:04:16.531
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:04:54.249
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:04:54.249
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:05:01.493
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:05:01.493
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:05:11.589
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:05:11.589
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:05:13.121
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-02-25 23:05:13.121
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
