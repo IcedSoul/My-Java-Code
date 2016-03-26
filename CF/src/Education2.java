@@ -1,26 +1,51 @@
+import java.math.BigInteger;
 import java.util.Scanner;
 public class Education2 {
-public static long num(int n){
-	long ans=0;
-	while(n>0){
-		int t=n%10;
-		if(t==0 || t==6 || t==9) ans+=6;
-		if(t==1) ans+=2;
-		if(t==2 || t==3 || t==5) ans+=5;
-		if(t==4) ans+=4;
-		if(t==7) ans+=3;
-		if(t==8) ans+=7;
-		n/=10;
+public static long ww(int n){
+		long w=1;
+		for(int i=1;i<=n;i++) w*=10;
+		return w;
 	}
-	return ans;
-}
 public static void main(String[] args){
 	Scanner input=new Scanner(System.in);
-	long ans=0;
-	int a=input.nextInt(),b=input.nextInt();
-	for(int i=a;i<=b;i++){
-		ans+=num(i);
+	int t=input.nextInt();
+	while((t--)!=0){
+		int n=input.nextInt();
+		BigInteger x=input.nextBigInteger();	
+		BigInteger t1=x.multiply(x),t2=t1,t3,t4,ans=x;
+		long as[]=new long[1000];
+		int l=t1.toString().length();
+		if(l>n){
+			t3=BigInteger.valueOf(ww(l-n));
+			t2=t1.divide(t3);}
+		else
+			t2=t1;
+		int count=0;
+		while(true){
+			if(t2.compareTo(ans)==1)
+				ans=t2;
+			t4=t2.multiply(t2);
+			l=t4.toString().length();
+			if(l>n){
+				t3=BigInteger.valueOf(ww(l-n));
+				t2=t4.divide(t3);}
+			else
+				t2=t4;
+			int k=0;long t5=t2.longValue();
+			for(int i=0;i<count;i++){
+				if(as[i]==t5){
+					if(as[count-1]==as[i-1])
+					k=1;break;
+				}
+					
+			}
+			if(k==1) break;
+			as[count++]=t5;
+		}
+		
+		if(t2.compareTo(ans)==1)
+			ans=t2;
+		System.out.println(ans);
 	}
-	System.out.print(ans);
 }
 }

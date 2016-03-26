@@ -1,0 +1,41 @@
+import java.math.BigInteger;
+import java.util.Scanner;
+public class Education2 {
+public static long ww(int n){
+		long w=1;
+		for(int i=1;i<=n;i++) w*=10;
+		return w;
+	}
+public static void main(String[] args){
+	Scanner input=new Scanner(System.in);
+	int t=input.nextInt();
+	while((t--)!=0){
+		int n=input.nextInt();
+		BigInteger x=input.nextBigInteger();
+		
+		BigInteger t1=x.multiply(x),t2=t1,t3,t4,ans=x;
+		int l=t1.toString().length();
+		if(l>n){
+			t3=BigInteger.valueOf(ww(l-n));
+			t2=t1.divide(t3);}
+		else
+			t2=t1;
+		while(!(t2.multiply(t2)).equals(t1)){
+			if(t2.compareTo(ans)==1)
+				ans=t2;
+			t4=t2.multiply(t2);
+			l=t4.toString().length();
+			if(l>n){
+				t3=BigInteger.valueOf(ww(l-n));
+				t2=t4.divide(t3);}
+			else
+				t2=t4;
+			System.out.println(t1+" "+t2+" "+t4);
+		}
+		
+		if(t2.compareTo(ans)==1)
+			ans=t2;
+		System.out.println(ans);
+	}
+}
+}
