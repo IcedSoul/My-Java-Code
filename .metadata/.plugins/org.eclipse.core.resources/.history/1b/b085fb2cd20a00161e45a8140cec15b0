@@ -1,0 +1,26 @@
+import java.math.*;
+import java.util.*;
+
+public class Main {
+	public static void main(String[] args){
+		Scanner input=new Scanner(System.in);
+		int count=0;
+		while(input.hasNext()){
+			String a=input.nextLine();
+			a=a.toUpperCase();
+			a=a.replaceAll("-"," ");
+			a=a.replaceAll("THE ","");
+			a=a.replaceAll("OF ","");
+			a=a.replaceAll("AND ","");
+			a=a.replaceAll("FOR ","");
+			a=a.replaceAll("AN ","");
+			a=a.replaceAll("A ","");
+			System.out.print("Case "+(++count)+": ");
+			System.out.print(a.charAt(0));
+			for(int i=1;i<a.length()-1;i++)
+				if(a.charAt(i)==' ')
+				System.out.println(a.charAt(i+1));
+			System.out.println();
+		}	
+	}
+}
